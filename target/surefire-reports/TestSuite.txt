@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.966 s <<< FAILURE! - in TestSuite
+orange.ny.myrunner.MyRunner.runScenario["valid able loging the application.", "Optional[validusers can login the application]"](1)  Time elapsed: 0.151 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'User is able to open the browser' and 5 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User is able to open the browser")
+public void user_is_able_to_open_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("User is able to enter the URL")
+public void user_is_able_to_enter_the_url() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User is able to click on the sign in is BTN")
+public void user_is_able_to_click_on_the_sign_in_is_btn() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User is able to enter the user name")
+public void user_is_able_to_enter_the_user_name() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User is able to enter the password")
+public void user_is_able_to_enter_the_password() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User is able to click on the log in is BTN")
+public void user_is_able_to_click_on_the_log_in_is_btn() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
